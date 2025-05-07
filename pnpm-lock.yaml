@@ -54,15 +54,15 @@ importers:
 
   examples:
     dependencies:
+      '@gmeilus/eslint-plugin-playwright':
+        specifier: file:../
+        version: file:(eslint@9.13.0)
       '@playwright/test':
         specifier: ^1.42.0
         version: 1.42.0
       eslint:
         specifier: ^9.13.0
         version: 9.13.0
-      eslint-plugin-playwright:
-        specifier: file:../
-        version: file:(eslint@9.13.0)
     devDependencies:
       '@types/node':
         specifier: ^20.11.17

@@ -1,7 +1,7 @@
 {
   "name": "@gmeilus/eslint-plugin-playwright",
   "description": "ESLint plugin for Playwright testing.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gustavo-meilus/eslint-plugin-playwright.git"
