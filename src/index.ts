@@ -3,6 +3,7 @@ import expectExpect from './rules/expect-expect.js'
 import maxExpects from './rules/max-expects.js'
 import maxNestedDescribe from './rules/max-nested-describe.js'
 import missingPlaywrightAwait from './rules/missing-playwright-await.js'
+import noAllMethod from './rules/no-all-method.js'
 import noCommentedOutTests from './rules/no-commented-out-tests.js'
 import noConditionalExpect from './rules/no-conditional-expect.js'
 import noConditionalInTest from './rules/no-conditional-in-test.js'
@@ -57,6 +58,7 @@ const index = {
     'max-expects': maxExpects,
     'max-nested-describe': maxNestedDescribe,
     'missing-playwright-await': missingPlaywrightAwait,
+    'no-all-method': noAllMethod,
     'no-commented-out-tests': noCommentedOutTests,
     'no-conditional-expect': noConditionalExpect,
     'no-conditional-in-test': noConditionalInTest,
