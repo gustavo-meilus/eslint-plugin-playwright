@@ -36,7 +36,7 @@ export default createRule({
     docs: {
       category: 'Best Practices',
       description: 'Require a timeout option for `toPass()`',
-      recommended: false,
+      recommended: true,
       url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/require-to-pass-timeout.md',
     },
     messages: {
