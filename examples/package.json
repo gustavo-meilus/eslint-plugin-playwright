@@ -7,7 +7,7 @@
   "dependencies": {
     "@playwright/test": "^1.42.0",
     "eslint": "^9.13.0",
-    "@gmeilus/eslint-plugin-playwright": "file:../"
+    "eslint-plugin-playwrightx": "file:../"
   },
   "devDependencies": {
     "@types/node": "^20.11.17"

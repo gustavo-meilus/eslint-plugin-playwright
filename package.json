@@ -1,5 +1,5 @@
 {
-  "name": "@gmeilus/eslint-plugin-playwright",
+  "name": "eslint-plugin-playwrightx",
   "description": "ESLint plugin for Playwright testing.",
   "version": "0.1.4",
   "repository": {

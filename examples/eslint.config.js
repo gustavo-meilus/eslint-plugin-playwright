@@ -1,4 +1,4 @@
-import playwright from '@gmeilus/eslint-plugin-playwright'
+import playwright from 'eslint-plugin-playwrightx'
 
 export default {
   ...playwright.configs['flat/recommended'],
