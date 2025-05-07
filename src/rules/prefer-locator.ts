@@ -54,7 +54,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Suggest locators over page methods',
       recommended: false,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/prefer-locator.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/prefer-locator.md',
     },
     messages: {
       preferLocator: 'Prefer locator methods instead of page methods',

@@ -1,7 +1,7 @@
 import {
-  dereference,
-  equalityMatchers,
-  isPropertyAccessor,
+    dereference,
+    equalityMatchers,
+    isPropertyAccessor,
 } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { replaceAccessorFixer } from '../utils/fixer.js'
@@ -63,7 +63,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Suggest using `toHaveCount()`',
       recommended: false,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/prefer-to-have-count.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/prefer-to-have-count.md',
     },
     fixable: 'code',
     messages: {

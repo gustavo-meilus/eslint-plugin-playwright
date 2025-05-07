@@ -24,7 +24,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Disallow any use of .all() as a method call',
       recommended: true,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright',
     },
     messages: {
       noAllMethod: 'Do not use .all() method.',

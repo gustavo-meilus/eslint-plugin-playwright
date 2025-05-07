@@ -36,7 +36,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Disallows the usage of raw locators',
       recommended: false,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/no-raw-locators.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/no-raw-locators.md',
     },
     messages: {
       noRawLocator:

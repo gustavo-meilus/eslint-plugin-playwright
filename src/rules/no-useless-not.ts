@@ -2,9 +2,9 @@ import * as ESTree from 'estree'
 import { getStringValue, isBooleanLiteral } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import {
-  getRangeOffset,
-  removePropertyFixer,
-  replaceAccessorFixer,
+    getRangeOffset,
+    removePropertyFixer,
+    replaceAccessorFixer,
 } from '../utils/fixer.js'
 import { truthy } from '../utils/misc.js'
 import { type ParsedExpectFnCall, parseFnCall } from '../utils/parseFnCall.js'
@@ -112,7 +112,7 @@ export default createRule({
       category: 'Best Practices',
       description: `Disallow usage of 'not' matchers when a more specific matcher exists`,
       recommended: true,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/no-useless-not.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/no-useless-not.md',
     },
     fixable: 'code',
     messages: {

@@ -1,10 +1,10 @@
 import ESTree from 'estree'
 import {
-  equalityMatchers,
-  getParent,
-  getStringValue,
-  isBooleanLiteral,
-  isPropertyAccessor,
+    equalityMatchers,
+    getParent,
+    getStringValue,
+    isBooleanLiteral,
+    isPropertyAccessor,
 } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { parseFnCall } from '../utils/parseFnCall.js'
@@ -98,7 +98,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Suggest using toContain()',
       recommended: false,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/prefer-to-contain.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/prefer-to-contain.md',
     },
     fixable: 'code',
     messages: {

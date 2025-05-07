@@ -1,11 +1,11 @@
 import * as ESTree from 'estree'
 import {
-  equalityMatchers,
-  getParent,
-  getRawValue,
-  getStringValue,
-  isBooleanLiteral,
-  isStringLiteral,
+    equalityMatchers,
+    getParent,
+    getRawValue,
+    getStringValue,
+    isBooleanLiteral,
+    isStringLiteral,
 } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { parseFnCall } from '../utils/parseFnCall.js'
@@ -115,7 +115,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Suggest using the built-in comparison matchers',
       recommended: false,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/prefer-comparison-matcher.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/prefer-comparison-matcher.md',
     },
     fixable: 'code',
     messages: {

@@ -50,7 +50,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Enforce assertion to be made in a test body',
       recommended: true,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/expect-expect.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/expect-expect.md',
     },
     messages: {
       noAssertions: 'Test has no assertions',

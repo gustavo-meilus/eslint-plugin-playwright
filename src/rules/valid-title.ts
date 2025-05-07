@@ -1,9 +1,9 @@
 import ESTree from 'estree'
 import {
-  dereference,
-  getStringValue,
-  isStringNode,
-  StringNode,
+    dereference,
+    getStringValue,
+    isStringNode,
+    StringNode,
 } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { parseFnCall } from '../utils/parseFnCall.js'
@@ -254,7 +254,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Enforce valid titles',
       recommended: true,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/valid-title.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/valid-title.md',
     },
     fixable: 'code',
     messages: {

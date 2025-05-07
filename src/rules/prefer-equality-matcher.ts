@@ -1,9 +1,9 @@
 import {
-  equalityMatchers,
-  getParent,
-  getRawValue,
-  getStringValue,
-  isBooleanLiteral,
+    equalityMatchers,
+    getParent,
+    getRawValue,
+    getStringValue,
+    isBooleanLiteral,
 } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { parseFnCall } from '../utils/parseFnCall.js'
@@ -88,7 +88,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Suggest using the built-in equality matchers',
       recommended: false,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/prefer-equality-matcher.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/prefer-equality-matcher.md',
     },
     hasSuggestions: true,
     messages: {

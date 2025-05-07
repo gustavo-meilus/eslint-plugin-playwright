@@ -1,10 +1,10 @@
 import { AST, Rule, Scope } from 'eslint'
 import * as ESTree from 'estree'
 import {
-  getParent,
-  getStringValue,
-  isFunction,
-  isPageMethod,
+    getParent,
+    getStringValue,
+    isFunction,
+    isPageMethod,
 } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { truthy } from '../utils/misc.js'
@@ -145,7 +145,7 @@ export default createRule({
       category: 'Possible Errors',
       description: 'Prevent unsafe variable references in page.evaluate()',
       recommended: true,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/no-unsafe-references.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/no-unsafe-references.md',
     },
     fixable: 'code',
     messages: {

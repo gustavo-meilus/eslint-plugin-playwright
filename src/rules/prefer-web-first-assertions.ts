@@ -1,9 +1,9 @@
 import {
-  dereference,
-  findParent,
-  getRawValue,
-  getStringValue,
-  isBooleanLiteral,
+    dereference,
+    findParent,
+    getRawValue,
+    getStringValue,
+    isBooleanLiteral,
 } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { parseFnCall } from '../utils/parseFnCall.js'
@@ -200,7 +200,7 @@ export default createRule({
       category: 'Best Practices',
       description: 'Prefer web first assertions',
       recommended: true,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/prefer-web-first-assertions.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/prefer-web-first-assertions.md',
     },
     fixable: 'code',
     messages: {

@@ -3,9 +3,9 @@ import { getParent, getStringValue } from '../utils/ast.js'
 import { createRule } from '../utils/createRule.js'
 import { getAmountData } from '../utils/misc.js'
 import {
-  isSupportedAccessor,
-  modifiers,
-  parseFnCallWithReason,
+    isSupportedAccessor,
+    modifiers,
+    parseFnCallWithReason,
 } from '../utils/parseFnCall.js'
 
 const findTopMostMemberExpression = (
@@ -133,7 +133,7 @@ export default createRule({
       category: 'Possible Errors',
       description: 'Enforce valid `expect()` usage',
       recommended: true,
-      url: 'https://github.com/playwright-community/eslint-plugin-playwright/tree/main/docs/rules/valid-expect.md',
+      url: 'https://github.com/gustavo-meilus/eslint-plugin-playwright/tree/main/docs/rules/valid-expect.md',
     },
     messages: {
       matcherNotCalled: 'Matchers must be called to assert.',
