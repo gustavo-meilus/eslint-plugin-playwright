@@ -3,6 +3,7 @@ import expectExpect from './rules/expect-expect.js'
 import maxExpects from './rules/max-expects.js'
 import maxNestedDescribe from './rules/max-nested-describe.js'
 import missingPlaywrightAwait from './rules/missing-playwright-await.js'
+import noAllMethod from './rules/no-all-method.js'
 import noCommentedOutTests from './rules/no-commented-out-tests.js'
 import noConditionalExpect from './rules/no-conditional-expect.js'
 import noConditionalInTest from './rules/no-conditional-in-test.js'
@@ -42,6 +43,7 @@ import preferToHaveLength from './rules/prefer-to-have-length.js'
 import preferWebFirstAssertions from './rules/prefer-web-first-assertions.js'
 import requireHook from './rules/require-hook.js'
 import requireSoftAssertions from './rules/require-soft-assertions.js'
+import requireToPassTimeout from './rules/require-to-pass-timeout.js'
 import requireToThrowMessage from './rules/require-to-throw-message.js'
 import requireTopLevelDescribe from './rules/require-top-level-describe.js'
 import validDescribeCallback from './rules/valid-describe-callback.js'
@@ -56,6 +58,7 @@ const index = {
     'max-expects': maxExpects,
     'max-nested-describe': maxNestedDescribe,
     'missing-playwright-await': missingPlaywrightAwait,
+    'no-all-method': noAllMethod,
     'no-commented-out-tests': noCommentedOutTests,
     'no-conditional-expect': noConditionalExpect,
     'no-conditional-in-test': noConditionalInTest,
@@ -95,6 +98,7 @@ const index = {
     'prefer-web-first-assertions': preferWebFirstAssertions,
     'require-hook': requireHook,
     'require-soft-assertions': requireSoftAssertions,
+    'require-to-pass-timeout': requireToPassTimeout,
     'require-to-throw-message': requireToThrowMessage,
     'require-top-level-describe': requireTopLevelDescribe,
     'valid-describe-callback': validDescribeCallback,
